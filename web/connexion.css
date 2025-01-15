@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+h2{
+    margin-left: 0%;
+}
+
+p, input, button, a{
+    margin:10px;  
+}
+
+body {
+    font-family: Georgia, serif;
+    line-height: 1.5em;
+}
+
+#layout {
+    display: grid;
+    grid-template-rows: 100px 350px 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+header{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 0%;
+    background-color: #AEEDA9;
+    text-align: center;
+}
+
+.box{
+    padding: 2px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/*id pour la page de connexion*/
+#box1{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#box2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: 1px ;
+    background: #AEEDA9;
+}
+#box3{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+footer{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

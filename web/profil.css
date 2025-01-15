@@ -1,0 +1,15 @@
+body {
+    color: black;
+}
+
+.navbar {
+    background-color: lightgray;
+}
+
+#profile_picture{
+    width: 10vw;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
